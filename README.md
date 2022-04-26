@@ -1,4 +1,4 @@
-# knapsack
+# algo
         
     1. Dynamic programming
 
