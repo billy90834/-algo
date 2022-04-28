@@ -92,7 +92,7 @@ items = np.size(weights)
 # 溫度設定
 t_init = 1000
 t_min = 1
-eta = 0.99
+eta = 0.999
 k = 1
 t = t_init
 
@@ -143,7 +143,7 @@ res = int(''.join(s))
 print(res)
 
 # 折線收斂圖
-x = np.linspace(1, iter, iter)
+x = np.linspace(1, 500, iter)
 y = np.linspace(1, capacity)
-plt.plot(x, list_plot, 'r')
+plt.plot(x, list_plot, 'b')
 plt.show()
