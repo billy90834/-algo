@@ -67,7 +67,7 @@ def change_a_bit(key, position, bit):
     key = "".join(temp)
     return key
 
-# 迭代次數
+# 迭代次數=500
 round = 500
 
 # 折線圖list
