@@ -1,8 +1,8 @@
 # algo
         
-    1. Dynamic programming
+# Dynamic programming
 
-    # pseudocode
+     # pseudocode
         1.
         C[i][k]: item 1~i且負重k下的最大獲利
         for k = 0 ~ w
@@ -29,8 +29,7 @@
            
         3. 
         check result is correct or not
-
-    2. Hill climbing
+# Hill climbing
 
     # pseudocode
   
@@ -57,7 +56,7 @@
                  if 所有物品都不能再拿:
                    迭代結束
 
-    3. Simulate climbing
+# Simulate annealing
 
     # pseudocode
 
