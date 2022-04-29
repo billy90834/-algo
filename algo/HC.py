@@ -68,10 +68,10 @@ def change_a_bit(key, position, bit):
     return key
 
 # 迭代次數=500
-round = 500
+iter = 500
 
 # 折線圖list
-list_plot = [0 for x in range(0, round)]
+list_plot = [0 for x in range(0, iter)]
 
 # 最大值
 max_v = 0
@@ -80,7 +80,7 @@ max_v = 0
 items = np.size(weights)
 
 # 迭代500次
-for j in range(0, round):
+for j in range(0, iter):
     # 生成random bit string
     res_v, init_key = rand_key(items)
     take_step_key = init_key
@@ -132,7 +132,7 @@ res = int(''.join(s))
 print(res)
 
 # 折線圖
-x = np.linspace(1, round, round)
+x = np.linspace(1, iter, iter)
 y = np.linspace(1,capacity)
 plt.plot(x, list_plot, 'r')
 plt.show()
